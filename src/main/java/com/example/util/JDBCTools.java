@@ -9,9 +9,9 @@ import java.sql.*;
  */
 public class JDBCTools {
 
-    private static String url = "jdbc:oracle:thin:@192.168.168.5:1521:helowin";
-    private static String name = "user01";
-    private static String password = "1234";
+    private static String url = "jdbc:oracle:thin:@192.168.29.128:1521:orcl";
+    private static String name = "scott";
+    private static String password = "tiger";
 
     private static Connection connection;
 

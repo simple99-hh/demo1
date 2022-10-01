@@ -35,7 +35,7 @@ public class UserDao {
 
         try {
             connection = JDBCTools.getConnection();
-            String sql = "select * from user01";
+            String sql = "select * from test1";
             preparedStatement = connection.prepareStatement(sql);
             resultSet = preparedStatement.executeQuery();
             while (resultSet.next()){

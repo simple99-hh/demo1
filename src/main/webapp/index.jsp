@@ -10,6 +10,7 @@
 <h1>所有用户</h1>
 
 <div ><a href="/user?method=add">添加用户</a></div>
+<div ><a href="/user?method=find">查找用户</a></div>
 </br>
 
 <table>
